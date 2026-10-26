@@ -1,0 +1,10 @@
+# build output
+bin/
+obj/
+
+# generated drawings
+out/
+
+# Visual Studio
+.vs/
+*.user

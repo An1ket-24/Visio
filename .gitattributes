@@ -1,0 +1,6 @@
+# Visio packages are ZIP containers. Git must never touch their bytes,
+# otherwise the template (and every generated file) becomes unreadable.
+*.vsdx binary
+*.vstx binary
+*.vsdm binary
+*.vssx binary

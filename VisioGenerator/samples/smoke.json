@@ -1,0 +1,11 @@
+{
+  "title": "Smoke Test",
+  "subtitle": "One floor, no risers, one device - smallest possible page",
+  "project": "",
+  "floors": [ { "name": "L1" } ],
+  "systems": [],
+  "nodes": [
+    { "id": "X-1", "label": "X-1\nTest Box", "kind": "equipment", "floor": 0 }
+  ],
+  "links": []
+}

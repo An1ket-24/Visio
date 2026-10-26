@@ -1,0 +1,20 @@
+{
+  "title": "Minimal Riser Test",
+  "subtitle": "3 floors, 1 system, 2 devices - edit this file and re-run",
+  "project": "TEST-002",
+  "floors": [
+    { "name": "ROOF" },
+    { "name": "L2" },
+    { "name": "L1" }
+  ],
+  "systems": [
+    { "id": "chws", "short": "CHWS", "name": "Chilled Water Supply", "color": "#2F5597" }
+  ],
+  "nodes": [
+    { "id": "CH-1", "label": "CH-1\nChiller", "kind": "chiller", "floor": 2 },
+    { "id": "AHU-2", "label": "AHU-2\nLevel 2", "kind": "ahu", "floor": 1 }
+  ],
+  "links": [
+    { "from": "CH-1", "to": "AHU-2", "medium": "chws" }
+  ]
+}
